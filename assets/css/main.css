@@ -1,0 +1,90 @@
+body {
+        background-color: silver /*цвет фона*/
+    }
+
+#site-name {                                            /*Положение заголовка*/
+        width: 200px;/* Ширина */
+        /*border: 1px solid #000;*/
+        font-family: "Lucida console"; /*Шрифт*/
+        margin: auto
+    }
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+
+label{
+    color: aliceblue;
+}
+
+a{
+    color:  #ba3dbe;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*Шрифт*/
+}
+
+p1{
+    letter-spacing: 0.025em;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-weight: 600; /*ширина шрифта*/
+    text-transform: uppercase;
+}
+
+li{
+    display: inline-block;
+}
+
+ul.icons{
+    padding: 4px;
+}
+
+.smm{
+    position: absolute;        /*Расположение иконок соц.сетей.*/
+    bottom: 100px;
+    left: 5%;
+    
+}
+
+.inner{
+    position: absolute; /* Абсолютное позиционирование */
+    top: 350px; 
+    left: 50px; 
+    width: 230px; /* Ширина блока */
+    /*background: #417dcc; /* Цвет фона */
+    border: 1px solid #000; /* Параметры рамки */
+    padding: 10px; /* Поля вокруг текста */
+}
+
+
+
+.left {
+    position: absolute; /* Абсолютное позиционирование */
+    top: 80px; 
+    left: 50px; 
+    width: 159px; 
+    background: lightsteelblue; /* Цвет фона */
+    border: 1px solid #000; /* Параметры рамки */
+    padding: 10px; /* Поля вокруг текста */
+}
+
+.right{
+    position: relative; /* Относительное позиционирование */
+    background: lightskyblue ; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    color: rgb(0, 0, 0); /* Цвет текста */
+    border: 1px solid #000; /* Параметры рамки */
+    margin: 20px 240px 0 340px; /* Отступы вокруг блока */
+}
+
+.center{
+    position: absolute;
+    border: 1px solid #000;
+    width: 190px;
+    bottom: 50px;
+    left: 45%;
+}
